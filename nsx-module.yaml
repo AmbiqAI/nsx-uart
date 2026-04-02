@@ -9,6 +9,24 @@ support:
   ambiqsuite: true
   zephyr: false
 
+summary: UART wrapper helpers for serial communication, console I/O, and simple host-device links.
+
+capabilities:
+  - uart
+  - serial
+  - console_io
+
+use_cases:
+  - serial bring-up
+  - host-device communication
+  - UART console or bridge workflows
+
+agent_keywords:
+  - uart
+  - serial
+  - console
+  - tty
+
 build:
   cmake:
     package: nsx_uart
